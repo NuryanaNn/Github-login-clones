@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+
+.container .logoText{
+    text-align: center;
+}
+
+.container .logoText h3{
+    font-weight: lighter;
+}
+
+.container .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border: 1px solid #d8dee2;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.container .form h4{
+    font-weight: 300;
+}
+
+.container .form input{
+    width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    border: 1px solid #d8dee2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.container ul{
+    list-style: none;
+}
+
+.container .passwords ul{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.container .form button{
+    background-color: green;
+    width: 100%;
+    padding: 9px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.container .passwords ul li:nth-child(2){
+    color: blue;
+}
+
+.sign{
+    margin-top: 20px;
+    border: 1px solid #d8dee2;
+    padding: 10px 50px;
+    background-color: #fff;
+    font-weight:lighter;
+}
+
+.sign h5{
+    font-weight: 500;
+}
+
+.sign a{
+    color: blue;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+.footer ul{
+    display: flex;
+}
+
+.footer ul li{
+    margin-right: 20px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 12px;
+}
